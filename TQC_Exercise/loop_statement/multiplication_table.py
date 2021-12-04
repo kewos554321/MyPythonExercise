@@ -8,7 +8,7 @@ To run the script::
 def main():
     """main"""
     num = int(input())
-    table = []*num
+
     for i in range(num):
         i+=1
         for j in range(num):
@@ -18,3 +18,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
