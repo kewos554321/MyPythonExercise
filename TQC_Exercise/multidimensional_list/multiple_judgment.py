@@ -9,5 +9,6 @@ def main():
     else:
         print(f"{val} is not a multiple of 3 or 5.")
 
+
 if __name__ == "__main__":
     main()

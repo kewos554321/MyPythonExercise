@@ -6,6 +6,7 @@ To run the script::
     $ python mode_calculateion.py
 """
 
+
 def cal_mode(vals):
     """calculate mode value"""
     elements = set(vals)
@@ -18,6 +19,7 @@ def cal_mode(vals):
             mode_count = count
     return (mode_val, mode_count)
 
+
 def main():
     """main"""
     vals = []
@@ -26,6 +28,7 @@ def main():
         vals.append(val)
     mode_val, mode_count = cal_mode(vals)
     print(mode_val, mode_count, sep="\n")
+
 
 if __name__ == "__main__":
     main()

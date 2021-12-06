@@ -5,6 +5,7 @@ To run the script::
     $ python grade_data.py
 """
 
+
 def main():
     """main"""
     fop = open('write.txt', 'w', encoding="utf-8")
