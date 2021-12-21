@@ -1,5 +1,5 @@
 import numpy as np
-d
+
 def avoid_the_same_value_func(x, y):
 	for i in range(len(x)):
 		if x[i] == y[i]:
